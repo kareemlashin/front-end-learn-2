@@ -1,0 +1,178 @@
+.all-property {
+    /**comment*/
+    background-color: lightblue;
+    background: rgba(0, 128, 0, 0.3);
+    background: rgb(0, 128, 0);
+    opacity: 0.3;
+    background-image: url("paper.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    border: 5px solid red;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 200px;
+    width: 50%;
+    color: blue;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+a:link {
+    color: red;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: green;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: hotpink;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    display: block;
+    display: inline-block;
+}
+
+h1.hidden {
+    display: none;
+}
+
+h1.hidden {
+    visibility: hidden;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postion {
+    position: relative;
+    position: fixed;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+div {
+    overflow: hidden;
+    overflow: scroll;
+    overflow: visible;
+}
+
+img {
+    float: right;
+    clear: both;
+}
+
+.gradent {
+    background: linear-gradient(to bottom right, red, yellow);
+    background: radial-gradient(to bottom right, red, yellow);
+}
+
+.shadow {
+    text-shadow: 2px 2px 5px red;
+}
+
+div {
+    box-shadow: 10px 10px 5px grey;
+}
+
+div {
+    transform: translate(50px, 100px);
+    transform: skew(50deg);
+    transform: scale(1.5);
+    transform: rotate(-20deg);
+    -webkit-transform: skew(50deg);
+    -moz-transform: skew(50deg);
+    -ms-transform: skew(50deg);
+    -o-transform: skew(50deg);
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+
+/* The element to apply the animation to */
+
+div {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.div2 {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width:100px) and (max-width:1000px) {
+    CSS-Code;
+}
+
+.id {
+    pointer-events: stroke;
+    cursor: pointer;
+}

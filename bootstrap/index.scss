@@ -1,0 +1,32 @@
+.index {
+    color: green;
+}
+
+$color:green;
+@if $color==green {
+    .x {
+        color: red;
+    }
+}
+
+@for $var from 0 to 5 {
+    #x-#{$var} {
+        color: red;
+    }
+}
+
+@mixin cco {
+    color: blue;
+}
+
+.c {
+    @include cco();
+}
+
+%color {
+    color: red;
+}
+
+.c {
+    @extend %color
+}
